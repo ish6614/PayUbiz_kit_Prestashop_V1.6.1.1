@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>payubiz</name>
+	<displayName><![CDATA[PayUbiz]]></displayName>
+	<version><![CDATA[2.0]]></version>
+	<description><![CDATA[Boost Your Sales With Market Leading Payment Gateway]]></description>
+	<author><![CDATA[PayU India]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete your details ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
