@@ -534,7 +534,7 @@ class PayUbiz extends PaymentModule
          $bankcode  = Configuration::get('PAYUBIZ_BANKCODE');
 
 
-          $baseUrl=Tools::getShopDomain(true, true).__PS_BASE_URI__;
+          $baseUrl=Tools::getHttpHost(true).__PS_BASE_URI__;
 
           $salt = Configuration::get('PAYUBIZ_MERCHANT_SALT');
           $log  = Configuration::get('PAYUBIZ_LOGS');
